@@ -60,11 +60,11 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 
 $database['main'] = array(
     'driver'	=> 'mysql',
-    'hostname'	=> 'sql112.infinityfree.com',
+    'hostname'	=> 'localhost',
     'port'		=> '3306',
-    'username'	=> 'if0_35238263',
-    'password'	=> 'HCp1RdGftH',
-    'database'	=> 'if0_35238263_crud',
+    'username'	=> 'root',
+    'password'	=> '',
+    'database'	=> 'crud',
     'charset'	=> 'utf8',
     'dbprefix'	=> '',
 );
